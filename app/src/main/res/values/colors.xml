@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_200Alpha40">#6603DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
     <color name="color_gray">#66000000</color>
+    <color name="stroke_color">#663b4351</color>
+    <color name="bottom_sheet_background">#f6f6fa</color>
+
+    <color name="colorPrimaryMars">#ef6c00</color>
+    <color name="colorPrimaryVariantMars">#b53d00</color>
+    <color name="colorOnPrimaryMars">#ff9d3f</color>
+    <color name="colorSecondaryMars">#f9a825</color>
+    <color name="colorSecondaryMarsAlpha40">#66f9a825</color>
+    <color name="colorSecondaryVariantMars">#c17900</color>
+    <color name="colorOnSecondaryMars">#ffd95a</color>
+
+    <color name="colorPrimaryMoon">#78909c</color>
+    <color name="colorPrimaryVariantMoon">#4b636e</color>
+    <color name="colorOnPrimaryMoon">#a7c0cd</color>
+    <color name="colorSecondaryMoon">#bdbdbd</color>
+    <color name="colorSecondaryMoonAlpha40">#66bdbdbd</color>
+    <color name="colorSecondaryVariantMoon">#8d8d8d</color>
+    <color name="colorOnSecondaryMoon">#efefef</color>
 </resources>
