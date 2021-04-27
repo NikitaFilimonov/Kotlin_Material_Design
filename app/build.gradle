@@ -18,6 +18,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        viewBinding true
+    }
+
     buildTypes.each {
         Properties properties = new Properties()
         properties.load(project.rootProject.file("app.properties").newDataInputStream())
@@ -59,6 +63,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0'
 
     implementation("io.coil-kt:coil:0.9.2")
+
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
