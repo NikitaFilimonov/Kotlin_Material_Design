@@ -6,4 +6,13 @@
     <dimen name="stroke_width">32dp</dimen>
     <dimen name="stroke_height">1dp</dimen>
     <dimen name="description_behavior_peekHeight">100dp</dimen>
+    <dimen name="earth_width">120dp</dimen>
+    <dimen name="earth_height">120dp</dimen>
+    <dimen name="earth_text_size">35sp</dimen>
+    <dimen name="wiki_margin">15dp</dimen>
+    <dimen name="earth_description_width">0dp</dimen>
+    <dimen name="earth_description_text_size">15sp</dimen>
+    <dimen name="mars_width">120dp</dimen>
+    <dimen name="mars_height">120dp</dimen>
+    <dimen name="mars_text_size">35sp</dimen>
 </resources>
