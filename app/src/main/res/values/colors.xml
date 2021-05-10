@@ -27,4 +27,5 @@
     <color name="colorSecondaryMoonAlpha40">#66bdbdbd</color>
     <color name="colorSecondaryVariantMoon">#8d8d8d</color>
     <color name="colorOnSecondaryMoon">#efefef</color>
+    <color name="earth_description_text_color">#000</color>
 </resources>

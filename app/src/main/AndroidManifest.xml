@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.main.animations.AnimationsActivity"/>
+        <activity android:name=".ui.main.animations.AnimationsActivityBonus"/>
+        <activity android:name=".ui.main.recycler.RecyclerActivity"/>
     </application>
 
 </manifest>
