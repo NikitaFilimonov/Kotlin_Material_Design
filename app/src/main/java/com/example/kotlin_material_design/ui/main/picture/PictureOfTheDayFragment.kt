@@ -2,6 +2,7 @@ package com.example.kotlin_material_design.ui.main.picture
 
 import com.example.kotlin_material_design.R
 import android.content.Intent
+import android.graphics.Typeface
 import android.net.Uri
 import android.os.Bundle
 import android.transition.ChangeBounds
@@ -29,6 +30,7 @@ import kotlinx.android.synthetic.main.main_fragment.fab
 import kotlinx.android.synthetic.main.main_fragment.image_view
 import kotlinx.android.synthetic.main.main_fragment.input_edit_text
 import kotlinx.android.synthetic.main.main_fragment.input_layout
+import kotlinx.android.synthetic.main.main_text.*
 
 class PictureOfTheDayFragment : Fragment() {
 
@@ -61,6 +63,9 @@ class PictureOfTheDayFragment : Fragment() {
             })
         }
         setBottomAppBar(view)
+        activity?.let {
+            text_view.typeface = Typeface.createFromAsset(it.assets, "TheBomb-7B9gw.ttf")
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -96,6 +101,9 @@ class PictureOfTheDayFragment : Fragment() {
                         lifecycle(this@PictureOfTheDayFragment)
                         error(R.drawable.ic_load_error_vector)
                         placeholder(R.drawable.ic_no_photo_vector)
+                        serverResponseData.explanation?.let {
+                            text_view.text = it
+                        }
                     }
                 }
             }
